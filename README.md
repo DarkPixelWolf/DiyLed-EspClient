@@ -56,7 +56,7 @@ mode | string | defined by MODES array | Mode of the light, MODES array is provi
 StateGetCallback, this function is used by the DiyLedClient to get the current state of the device, as this is completely up to you, the client uses a callback function to get the state from your script, argument types and meaning are specified below the example:
 ```cpp
 void stateGetCallback() {
-	dlc->currentData = dlc->assembleJson(light_name, num_leds, state, brightness, mode, modes, modessize, r, g, b);
+	client->currentData = client->assembleJson(light_name, num_leds, state, brightness, mode, modes, modessize, r, g, b);
 }
 ```
 Argument | Type | Values | Description
