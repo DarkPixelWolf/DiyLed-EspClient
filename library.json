@@ -1,0 +1,19 @@
+{
+"name": "DiyLedClient",
+"frameworks": "Arduino",
+"keywords": "alexa, esp32, esp8266, control, dimming",
+"description": "DiyLed Library",
+"url": "https://github.com/DarkPixelWolf/DiyLedClient",
+"authors":
+[
+{
+        "name": "Sebastian Scheibe"
+}
+],
+"repository":
+{
+    "type": "git",
+    "url": "https://github.com/DarkPixelWolf/DiyLedClient"
+}
+}
+
