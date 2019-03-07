@@ -29,7 +29,7 @@ void valueCallback(prop, value) {
 }
 
 void stateGetCallback() {
-	dlc->currentData = dlc->assembleJson(LIGHT_NAME, NUM_PIXELS, state, brightness, mode, MODES, MODESSIZE, r, g, b);
+	client->currentData = client->assembleJson(LIGHT_NAME, NUM_PIXELS, state, brightness, mode, MODES, MODESSIZE, r, g, b);
 }
 
 void setup() {
